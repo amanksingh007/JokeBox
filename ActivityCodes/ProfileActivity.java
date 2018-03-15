@@ -36,7 +36,7 @@ public class ProfileActivity extends AppCompatActivity
         Button btnsaveChanges;
         EditText namefield,emailfield,phonenofield;
         Bundle extras;
-    public static final String UPLOAD_URL = "https://amanksinghme.000webhostapp.com/Android/uploadimage.php";
+    public static final String UPLOAD_URL = "HTTP_PATH/uploadimage.php";
     public static final String UPLOAD_KEY = "image";
     public static final String TAG = "MY MESSAGE";
     private int PICK_IMAGE_REQUEST = 1;
