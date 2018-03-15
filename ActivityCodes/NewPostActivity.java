@@ -19,7 +19,7 @@ public class NewPostActivity extends AppCompatActivity {
     Button btnnewpost;Bundle extras;
     EditText addnewpost;
     String USERID,PASSWORD;
-    private final String LOGIN_URL="https://amanksinghme.000webhostapp.com/Android/newpost.php";
+    private final String LOGIN_URL="HTTP_PATH/newpost.php";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
