@@ -29,7 +29,7 @@ public class MainActivity_Nav extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
         private Button btnRegister,gotoLogin;
         private EditText userId,emailId,password,repeatPassword;
-    private final String REGISTER_URL="https://amanksinghme.000webhostapp.com/Android/register.php";
+    private final String REGISTER_URL="HTTP_PATH/register.php";
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
