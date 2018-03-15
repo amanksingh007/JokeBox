@@ -19,7 +19,7 @@ import java.io.IOException;
 import java.util.HashMap;
 
 public class EditProfileActivity extends AppCompatActivity implements View.OnClickListener{
-    public static final String UPLOAD_URL ="https://amanksinghme.000webhostapp.com/Android/uploadimage.php";
+    public static final String UPLOAD_URL ="HTTP_PATH/uploadimage.php";
     public static final String UPLOAD_KEY = "image";
     public static final String TAG = "MY MESSAGE";
 
