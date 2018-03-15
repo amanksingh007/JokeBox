@@ -33,7 +33,7 @@ public class HomeActivity extends AppCompatActivity
         String USERID,PASSWORD;
         Bundle extras;
         ListView listView;
-    private final String RETRIVE_DATA_URL="https://amanksinghme.000webhostapp.com/Android/retrive.php";
+    private final String RETRIVE_DATA_URL="HTTP_PATH/retrive.php";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
